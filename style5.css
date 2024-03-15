@@ -1,0 +1,240 @@
+.div {
+    background-color: rgb(252, 0, 0);
+    height: 70px;
+    display: flex;
+}
+
+.href {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.href:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.href:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.img {
+    margin-left: 90px;
+    margin-right: 250px;
+}
+
+@-webkit-keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+@keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+
+.img:hover {
+        -webkit-animation-name: rotateIn;
+        animation-name: rotateIn;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        animation-timing-function: ease;
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./Fonts/Rajdhani-SemiBold.ttf)
+}
+
+.di {
+    color: white;
+    margin-left: 20px;
+    font-family: bold;
+    margin-top: 25px;
+}
+
+.ver {
+    border: 1px solid black;
+    height: 20px;
+    margin-top: 25px;
+}
+
+.icon {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.d {
+    background-image: url(Images/images\ \(1\).jpg);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.h {
+    text-align: center;
+    margin-top: 25px;
+    font-family: bold;
+    font-size: xx-large;
+}
+
+.para {
+    text-align: center;
+    margin-top: 25px;
+    font-family: bold;
+    font-size: medium;
+    color: #525e60;
+}
+
+.image {
+    width: 350px;
+    height: 500px;
+}
+
+.hi {
+    text-align: center;
+    margin-top: 25px;
+    font-family: bold;
+    font-size: xx-large;
+    color: red;
+}
+
+.hid {
+    text-align: center;
+    margin-top: 25px;
+    font-family: bold;
+    font-size: xx-large;
+    color: orange;
+}
+
+.fiz {
+    text-align: center;
+    margin-top: 25px;
+    font-family: bold;
+    font-size: xx-large;
+    color: #105b29;
+}
+
+.pome {
+    text-align: center;
+    margin-top: 25px;
+    font-family: bold;
+    font-size: xx-large;
+    color: #d97e68;
+}
+
+@font-face {
+    font-family: class;
+    src: url(./Fonts/Rajdhani-Regular.ttf);
+}
+
+.con {
+    font-family: class;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+    color: #000;
+}
+
+.ion {
+    position: relative;
+    top: -22px;
+    left: 90px;
+    color: #e7e7e7;
+    font-size: xx-large;
+}
+
+.io {
+    position: relative;
+    top: -22px;
+    left: 85px;
+    color: #e7e7e7;
+    font-size: xx-large;
+}
+
+.ic {
+    position: relative;
+    top: -22px;
+    left: 130px;
+    color: #e7e7e7;
+    font-size: xx-large;
+}
+
+.num {
+    font-family: class;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+    color: #000;
+}
+
+.ion:hover {
+    color: red;
+    transition: 1s ease;
+}
+
+.io:hover {
+    color: red;
+    transition: 1s ease;
+}
+
+.ic:hover {
+    color: red;
+    transition: 1s ease;
+}
+
+.box {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    text-align: center;
+}
+
+p {
+    font-family: bold;
+    color: white;
+}
+
+b {
+    font-family: bold;
+    color: #ccad85;
+}
+
+b:hover {
+    color: #ecc591;
+}
+
+p {
+    position: relative;
+    top: 15px;
+}
